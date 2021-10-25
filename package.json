@@ -122,7 +122,7 @@
     "short-uuid": "3.1.1",
     "tmp": "0.0.33",
     "ts-interface-checker": "1.0.2",
-    "typeorm": "0.2.18",
+    "typeorm": "0.2.25",
     "uuid": "3.3.2",
     "winston": "2.4.5",
     "ws": "6.1.0"
