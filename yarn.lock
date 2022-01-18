@@ -2090,7 +2090,7 @@ debug@3.1.0:
   dependencies:
     ms "2.0.0"
 
-debug@3.2.6, debug@^3.2.6:
+debug@3.2.6:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ==
@@ -2104,7 +2104,7 @@ debug@4, debug@4.3.1, debug@^4.1.1:
   dependencies:
     ms "2.1.2"
 
-debug@^3.0.0:
+debug@^3.0.0, debug@^3.2.6:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
   integrity sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==
@@ -6153,10 +6153,10 @@ safe-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-saml2-js@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/saml2-js/-/saml2-js-2.0.3.tgz#c7d935408d32b2f4b987defc43987d7b838d41bd"
-  integrity sha1-x9k1QI0ysvS5h978Q5h9e4ONQb0=
+saml2-js@2.0.5:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/saml2-js/-/saml2-js-2.0.5.tgz#28aa2f4772bd2453a3bb933649c6580c799a098a"
+  integrity sha512-8OOZxeMxpdtEszFbvR01TcjKb8g/HsE1si/EGdTawSQY0KgwtvPTG2Ctc5xhEW45xhU+j+UrU5ttZxC72YXSUQ==
   dependencies:
     async "^2.5.0"
     debug "^2.6.0"
@@ -7206,12 +7206,7 @@ undefsafe@^2.0.2:
   dependencies:
     debug "^2.2.0"
 
-underscore@>=1.8.3:
-  version "1.12.1"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.1.tgz#7bb8cc9b3d397e201cf8553336d262544ead829e"
-  integrity sha512-hEQt0+ZLDVUMhebKxL4x1BTtDY7bavVofhZ9KZ4aI26X9SRaE+Y3m83XUL1UP2jn8ynjndwCCpEHdUG+9pP1Tw==
-
-underscore@^1.8.0:
+underscore@>=1.8.3, underscore@^1.8.0:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.13.1.tgz#0c1c6bd2df54b6b69f2314066d65b6cde6fcf9d1"
   integrity sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g==
